@@ -1,6 +1,6 @@
 FROM openjdk:8-jre
 
-ENV VERSION 6.0.0
+ENV VERSION 6.1.0
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends graphviz && \
